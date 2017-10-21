@@ -1,6 +1,6 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "raisinpicker/raisinpicker-project",
+    "description": "Composer pProject template for Raisin Picker installation profile on Drupal 8.x",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
@@ -9,12 +9,16 @@
             "role": ""
         }
     ],
-    "repositories": [
-        {
+    "repositories": {
+        "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "raisinpicker": {
+            "type": "vcs",
+            "url": "https://github.com/raisinpicker/profile-d8"
         }
-    ],
+    },
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
@@ -22,6 +26,7 @@
         "drupal/console": "^1.0.1",
         "drupal/core": "~8.0",
         "drush/drush": "~8.0|^9.0.0-beta7",
+        "raisinpicker/profile-d8": "^1.0",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
