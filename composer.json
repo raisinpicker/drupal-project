@@ -1,5 +1,5 @@
 {
-    "name": "raisinpicker/raisinpicker-project",
+    "name": "raisinpicker/raisinpicker",
     "description": "Composer project template for Raisin Picker installation profile on Drupal 8.x",
     "type": "project",
     "license": "GPL-2.0-or-later",
