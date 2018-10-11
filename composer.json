@@ -75,7 +75,7 @@
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library", "type:npm-asset", "type:bower-asset"],
             "web/modules/{$name}": ["type:drupal-module"],
-            "web/profiles/{$name}": ["type:drupal-profile"],
+            "web/profiles/raisinpicker": ["type:drupal-profile"],
             "web/themes/{$name}": ["type:drupal-theme"],
             "drush/Commands/{$name}": ["type:drupal-drush"]
         },
